@@ -1,0 +1,39 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chat__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+}
+
+.chat__header > .MuiSvgIcon-root {
+  margin-left: 20px;
+}
+
+.chat__headerInfo {
+  flex:1;
+  padding-left: 20px;
+}
+
+.chat__headerInfo > h3 {
+  margin-bottom: 3px;
+  font-weight:500;
+}
+
+.chat__headerInfo > p {
+  color: gray;
+}
+
+.chat__body {
+  flex:1;
+  background-image: "./whatappBackGround.png";
+  background-repeat: repeat;
+  background-position: center;
+  padding:30px;
+  overflow: scroll;
+}
